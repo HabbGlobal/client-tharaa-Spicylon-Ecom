@@ -72,7 +72,7 @@ export const metadata = {
     canonical: "https://spicylon.com",
   },
   icons: {
-    icon: "/logo.png",
+    icon: "/favicon-mark.png",
     apple: "/logo.png",
   },
 };
