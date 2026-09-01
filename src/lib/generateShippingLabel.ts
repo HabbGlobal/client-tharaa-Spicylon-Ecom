@@ -54,7 +54,7 @@ export const generateShippingLabel = async (order: any) => {
   const recipientName = addr.fullName || order.userId?.name || "Customer";
 
   const [logoData, qrData] = await Promise.all([
-    toDataUrl("/logolabel.jpeg", 200, 200),
+    toDataUrl("/logo.png", 200, 200),
     toDataUrl("/logoqr.svg", 200, 200),
   ]);
 
